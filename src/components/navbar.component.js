@@ -5,14 +5,14 @@ import "./navbar.css"
 function Mynavbar() {
   return (
 
-      <div class="container-fluid text-center  bg-dark text-light">
+      <div className="container-fluid text-center  bg-dark text-light">
 
-        <div class="row text-center justify-content-center align-items-center py-2">
-          <div class="col-6 h2">Gymn House</div>
-          <div class="col h6 align-items-center "><NavLink to="/">HOME</NavLink> </div>
-          <div class="col h6 text-decoration-none "><NavLink to="/packages">PACKAGES</NavLink></div>
-          <div class="col  h6 text-decoration-none"><NavLink to="/about">ABOUT</NavLink></div>
-          <div class="col h6 text-decoration-none"><NavLink to="/contact">CONTACT</NavLink></div>
+        <div className="row text-center justify-content-center align-items-center py-2">
+          <div className="col-6 h2">Gymn House</div>
+          <div className="col h6 align-items-center "><NavLink to="/">HOME</NavLink> </div>
+          <div className="col h6 text-decoration-none "><NavLink to="/packages">PACKAGES</NavLink></div>
+          <div className="col  h6 text-decoration-none"><NavLink to="/about">ABOUT</NavLink></div>
+          <div className="col h6 text-decoration-none"><NavLink to="/contact">CONTACT</NavLink></div>
 
         </div>
  
