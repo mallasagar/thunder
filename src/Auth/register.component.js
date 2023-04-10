@@ -19,11 +19,6 @@ function Myregister() {
     let[date, setdate]=useState('')
     let[dateerr, setdateerr]=useState('')
 
-
-    
-
-    
-
     let[email, setemail]=useState('')
     let[emailerr,setemailerr]=useState('')
  
@@ -104,13 +99,7 @@ function Myregister() {
         }
         else{setphoneerr("")}
      }, [phone])   
-     useEffect(()=>{
-        if(!date){
-            setdateerr("Date can't  be empty")
-        }
-        
-        else{setdateerr("")}
-     }, [date])   
+    
      
 
      useEffect(()=>{
