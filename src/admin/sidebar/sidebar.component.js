@@ -29,6 +29,17 @@ export function Sidebar(){
                 <i className="fas fa-fw fa-tachometer-alt"></i>
                 <span>Trainers</span></NavLink>
         </li>
+        <li className="nav-item">
+            <NavLink className="nav-link" to="/admin/Booking">
+                <i className="fas fa-fw fa-tachometer-alt"></i>
+                <span>Booking</span></NavLink>
+        </li>
+        <hr/>
+        <li className="nav-item">
+            <NavLink className="nav-link" to="/logout">
+                <i className="fas fa-fw fa-tachometer-alt"></i>
+                <span>Logout</span></NavLink>
+        </li>
 
     </ul>
 
